@@ -8,9 +8,18 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.1.2",
-		"@types/bun": "latest"
+		"@types/bun": "latest",
+		"@types/pg": "^8.15.4",
+		"drizzle-kit": "^0.31.4"
 	},
 	"peerDependencies": {
 		"typescript": "^5"
+	},
+	"dependencies": {
+		"@hono/zod-openapi": "^1.0.2",
+		"better-auth": "^1.2.12",
+		"drizzle-orm": "^0.44.3",
+		"hono": "^4.8.5",
+		"pg": "^8.16.3"
 	}
 }
